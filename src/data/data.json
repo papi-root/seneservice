@@ -1,0 +1,141 @@
+{ 
+    "Header": {
+
+        "title": "2si.SARL",
+        "paragraph": "Avec le programme Equipement à Moindre Coùt (E.M.C). Équipez vous sans vous ruiner"
+
+    },
+    "About": {
+        "paragraph": "Basée à Dakar au Sénégal, la société Sen Services International (2SI-SARL) a connu un développement rapide et s’illustre aujourd’hui dans de nombreux secteurs d’activité liés à l’informatique, tels que, la vente de matériel informatique, la maintenance, le réseau, le recyclage et la formation professionnelle. Nous pensons cependant qu’au-delà de notre stratégie commerciale, la raison de notre réussite réside dans le sérieux et la compétence d’une équipe jeune dynamique et passionnée.Raison pour laquelle nous avons développé de multiples programmes comme :",
+        "Why": [
+            "Le programme « Un enseignant, un ordinateur »",
+            "Le programme Immobilier « Saaré Diaspora»",
+            "Le programme « Une école, une salle informatique »",
+            "Le Programme « Green Business »",
+            "Le Programme « Équipement à Moindre Coût »"
+        ],
+        "paragraph2": "Notre objectif à travers ses programmes est de permettre à chaque sénégalais de pouvoir s’équiper sans se ruiner. De permettre aux enseignants d’acquérir un ordinateur où une tablette pour un usage pédagogique ou à domicile dans un cadre familial en s’adaptant à son pouvoir d’achat. Ces outils informatiques installés avec des logiciels éducatifs permettront de développer des pratiques pédagogiques plus attractives et plus innovantes, mais surtout plus efficaces. Ces programmes sont bien sûr :",
+        "Why2": [
+            "Un programme pour préparer nos enseignants et du même coup nos enfants à la société qui est la leur et dans laquelle ils doivent être des citoyens.",
+            "Un programme pour faire de l’école sénégalaise une école innovante pour améliorer les résultats de ses élèves,",
+            "Un programme pour réduire la fracture numérique ou les inégalités d’accès au savoir et à la culture,"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-wordpress",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-language",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "John Doe",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Mike Doe",
+            "job": "Senior Designer"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Jane Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ],
+    "Contact": {
+        "address": "Boulevard du Président Habib Bourguiba, Dakar",
+        "phone": "+221 33 864 48 48",
+        "email": "contact@sen-services.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+            "icon": "fa fa-desktop",
+            "title": "EMC",
+            "title1": "Équipement à Moindre Coût.", 
+            "text": "Équipez-vous sans vous ruiner!"
+        },
+        {
+            "icon": "fa fa-home",
+            "title": "Immobilier",
+            "title1": "Programme “Saaré Diaspora”.", 
+            "text": "Votre Immobilier à moindre coût!"
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Assurance",
+            "title1": "Programme Assurance sur Mesure.", 
+            "text": "Assurez-vous à moindre coût."
+        },
+        {
+            "icon": "fa fa-shopping-cart",
+            "title": "Boutique",
+            "title1": "Boutique en Ligne", 
+            "text": "Votre services Achat en ligne et de livraison rapide!"
+        }
+    ]
+}

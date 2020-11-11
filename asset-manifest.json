@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/senservice/static/css/main.8c17e15d.chunk.css",
-    "main.js": "/senservice/static/js/main.9f40bd19.chunk.js",
-    "main.js.map": "/senservice/static/js/main.9f40bd19.chunk.js.map",
-    "runtime-main.js": "/senservice/static/js/runtime-main.deee244b.js",
-    "runtime-main.js.map": "/senservice/static/js/runtime-main.deee244b.js.map",
-    "static/css/2.4707e12a.chunk.css": "/senservice/static/css/2.4707e12a.chunk.css",
-    "static/js/2.6637061a.chunk.js": "/senservice/static/js/2.6637061a.chunk.js",
-    "static/js/2.6637061a.chunk.js.map": "/senservice/static/js/2.6637061a.chunk.js.map",
-    "index.html": "/senservice/index.html",
-    "precache-manifest.e452df1e436d8d04339481c5ff790466.js": "/senservice/precache-manifest.e452df1e436d8d04339481c5ff790466.js",
-    "service-worker.js": "/senservice/service-worker.js",
-    "static/css/2.4707e12a.chunk.css.map": "/senservice/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.8c17e15d.chunk.css.map": "/senservice/static/css/main.8c17e15d.chunk.css.map",
-    "static/js/2.6637061a.chunk.js.LICENSE.txt": "/senservice/static/js/2.6637061a.chunk.js.LICENSE.txt"
+    "main.css": "/seneservice/static/css/main.8c17e15d.chunk.css",
+    "main.js": "/seneservice/static/js/main.8a775fb3.chunk.js",
+    "main.js.map": "/seneservice/static/js/main.8a775fb3.chunk.js.map",
+    "runtime-main.js": "/seneservice/static/js/runtime-main.9d5815d3.js",
+    "runtime-main.js.map": "/seneservice/static/js/runtime-main.9d5815d3.js.map",
+    "static/css/2.4707e12a.chunk.css": "/seneservice/static/css/2.4707e12a.chunk.css",
+    "static/js/2.6637061a.chunk.js": "/seneservice/static/js/2.6637061a.chunk.js",
+    "static/js/2.6637061a.chunk.js.map": "/seneservice/static/js/2.6637061a.chunk.js.map",
+    "index.html": "/seneservice/index.html",
+    "precache-manifest.66c5c3982e997cfde28d206499241566.js": "/seneservice/precache-manifest.66c5c3982e997cfde28d206499241566.js",
+    "service-worker.js": "/seneservice/service-worker.js",
+    "static/css/2.4707e12a.chunk.css.map": "/seneservice/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.8c17e15d.chunk.css.map": "/seneservice/static/css/main.8c17e15d.chunk.css.map",
+    "static/js/2.6637061a.chunk.js.LICENSE.txt": "/seneservice/static/js/2.6637061a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.deee244b.js",
+    "static/js/runtime-main.9d5815d3.js",
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.6637061a.chunk.js",
     "static/css/main.8c17e15d.chunk.css",
-    "static/js/main.9f40bd19.chunk.js"
+    "static/js/main.8a775fb3.chunk.js"
   ]
 }

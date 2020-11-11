@@ -5,16 +5,6 @@ import Slider from "react-slick";
 export class Header extends Component {
   
   render() { 
-    const settings = {
-      dots: false,
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 1000,
-      autoplaySpeed: 1000,
-      arrows: false
-    };
     return (
       <header id="header">
         <div className="intro">
@@ -47,8 +37,7 @@ export class Header extends Component {
                       );
                     }}        
                   />
-                <br /> 
-               
+                  <br /> 
                   <a
                     href="#about"
                     className="btn btn-custom btn-lg page-scroll"

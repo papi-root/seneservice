@@ -1,3 +1,6 @@
+*{
+	
+}
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -7,6 +10,9 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 	scroll-behavior: smooth;
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
 }
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
@@ -196,46 +202,46 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 @keyframes slide {
 	0% {
-		background: url(../img/intro-bg1.jpg) center center no-repeat;
+		background: url('../img/intro-bg1.jpg') center center no-repeat;
 	} 
 
 	20% {
-		background: url(../img/intro-bg1.jpg) center center no-repeat;
+		background: url('../img/intro-bg1.jpg') center center no-repeat;
 	} 
 
 	
 	20.01%{
-		background: url(../img/intro-bg2.jpeg) center center no-repeat;
+		background: url('../img/intro-bg2.jpeg') center center no-repeat;
 	}
 
 	40% {
-		background: url(../img/intro-bg2.jpeg) center center no-repeat;
+		background: url('../img/intro-bg2.jpeg') center center no-repeat;
 	} 
 
 	40.01% {
-		background: url(../img/intro-bg3.jpeg) center center no-repeat;
+		background: url('../img/intro-bg3.jpeg') center center no-repeat;
 	} 
 
 	
 	60%{
-		background: url(../img/intro-bg3.jpeg) center center no-repeat;
+		background: url('../img/intro-bg3.jpeg') center center no-repeat;
 	}
 
 	60.01% {
-		background: url(../img/intro-bg1.jpg) center center no-repeat;
+		background: url('../img/intro-bg1.jpg') center center no-repeat;
 	} 
 
 	80% {
-		background: url(../img/intro-bg1.jpg) center center no-repeat;
+		background: url('../img/intro-bg1.jpg') center center no-repeat;
 	} 
 
 	
 	80.01%{
-		background: url(../img/intro-bg2.jpeg) center center no-repeat;
+		background: url('../img/intro-bg2.jpeg') center center no-repeat;
 	}
 
 	100%{
-		background: url(../img/intro-bg2.jpeg) center center no-repeat;
+		background: url('../img/intro-bg2.jpeg') center center no-repeat;
 	}
 
 }

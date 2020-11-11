@@ -55,7 +55,7 @@ export class Navigation extends Component {
               </li>
               <li>
                 <a href="#contact" className="page-scroll">
-                  Nos Contacts
+                  Contacts
                 </a>
               </li>
             </ul>

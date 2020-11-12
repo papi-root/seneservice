@@ -116,7 +116,7 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 SEN SERVICE SARL 
+              &copy; 2020 <div style={{ color: '#27ae60', fontSize: '20px'}}>SEN SERVICES SARL </div>
             </p>
           </div>
         </div>

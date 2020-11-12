@@ -1,54 +1,122 @@
 import React, { Component } from "react";
 import ReactTypingEffect from 'react-typing-effect';
+import Carousel from 'react-bootstrap/Carousel'; 
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export class Header extends Component {
-  
-  render() { 
-    return (
-      <header id="header">
-        <div className="intro">
-          <div className="overlay">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-8 col-md-offset-2 intro-text">
-                  <h1>
-                    {this.props.data ? this.props.data.title : "Loading"}
-                    <span></span>
-                  </h1> 
+  constructor(props) {
+      super(props)
+      this.next = this.next.bind(this)
+      this.previous = this.previous.bind(this)
+  } 
 
-                  <ReactTypingEffect
-                    text={["IMMOBILIER", "ASSURANCE", "EQUIPEMENT"]}
-                    cursorRenderer={cursor => <h2 style={{ color: '#fff'}}>{cursor}</h2>}
-                
-                    displayTextRenderer={(text, i) => {
-                      return (
-                        <h2>
-                          {text.split('').map((char, i) => {
-                            const key = `${i}`;
-                            return (
-                              <span
-                                key={key}
-                                style={{ color: '#fff'}}
-                              >{char}</span>
-                            );
-                          })}
-                        </h2>
-                      );
-                    }}        
-                  />
-                  <br /> 
-                  <a
-                    href="#about"
-                    className="btn btn-custom btn-lg page-scroll"
-                  >
-                    Plus d'info
-                  </a>{" "}
+  next() {
+      this.slider.slickNext();
+  }
+
+  previous() {
+      this.slider.slickPrev();
+  }
+  render() { 
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      arrows:false
+
+    };
+    return (  
+      <header id="header">
+          <Slider ref={ c => (this.slider = c )}  {...settings} className="row">
+
+          <div className="intro header_slide_1">
+                <div className="overlay">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-md-8 col-md-offset-2 intro-text"> 
+                          <h2 style={{ color: '#fff'}}>IMMOBILIER</h2>
+                          <p> Avec le programme Saare Diaspora </p>
+                        <a
+                          href="#about"
+                          className="btn btn-custom btn-lg page-scroll"
+                        >
+                          Plus d'info
+                        </a>{" "}
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+
+              <div className="intro header_slide_2">
+                <div className="overlay">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-md-8 col-md-offset-2 intro-text"> 
+                          <h2 style={{ color: '#fff'}}>ASSURANCE AUTOMOBILE</h2>
+                          <p> Avec le programme Assurance à Moindre Coùt </p>
+                        <a
+                          href="#about"
+                          className="btn btn-custom btn-lg page-scroll"
+                        >
+                          Plus d'info
+                        </a>{" "}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="intro header_slide_3">
+                <div className="overlay">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-md-8 col-md-offset-2 intro-text">
+                   
+                          <h2 style={{ color: '#fff'}}>EQUIPEMENT</h2>
+                          <p> Avec le programme Equipement à Moindre Coùt (E.M.C). Équipez vous sans vous ruiner </p>
+                        <a
+                          href="#about"
+                          className="btn btn-custom btn-lg page-scroll"
+                        >
+                          Plus d'info
+                        </a>{" "}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="intro header_slide_3">
+                <div className="overlay">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-md-8 col-md-offset-2 intro-text">
+                   
+                          <h2 style={{ color: '#fff'}}>AGROALIMENTAIRE</h2>
+                          <p>Des produits bio de bonnes qualités à moindre coût ! </p>
+                        <a
+                          href="#about"
+                          className="btn btn-custom btn-lg page-scroll"
+                        >
+                          Plus d'info
+                        </a>{" "}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </Slider>
+  
+          <button className="carousel_prev" onClick={ this.previous }>  </button>
+       
+          <button className="carousel_next" onClick={ this.next }> </button>
+        
       </header>
     );
   }

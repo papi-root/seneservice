@@ -30,7 +30,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/01-small.jpg"
+                        src={require('../img/portfolio/01-small.jpg')}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -51,7 +51,7 @@ export class Gallery extends Component {
                         <h4>Adipiscing Elit</h4>
                       </div>
                       <img
-                        src="img/portfolio/02-small.jpg"
+                        src={require('../img/portfolio/02-small.jpg')}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -72,7 +72,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/03-small.jpg"
+                        src={require('../img/portfolio/03-small.jpg')}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -93,7 +93,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/04-small.jpg"
+                        src={require('../img/portfolio/04-small.jpg')}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -114,7 +114,7 @@ export class Gallery extends Component {
                         <h4>Adipiscing Elit</h4>
                       </div>
                       <img
-                        src="img/portfolio/05-small.jpg"
+                        src={require('../img/portfolio/05-small.jpg')}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -135,7 +135,7 @@ export class Gallery extends Component {
                         <h4>Dolor Sit</h4>
                       </div>
                       <img
-                        src="img/portfolio/06-small.jpg"
+                        src={require('../img/portfolio/06-small.jpg')}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -156,7 +156,7 @@ export class Gallery extends Component {
                         <h4>Dolor Sit</h4>
                       </div>
                       <img
-                        src="img/portfolio/07-small.jpg"
+                        src={require('../img/portfolio/07-small.jpg')}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -177,7 +177,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/08-small.jpg"
+                        src={require('../img/portfolio/08-small.jpg')}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -198,7 +198,7 @@ export class Gallery extends Component {
                         <h4>Adipiscing Elit</h4>
                       </div>
                       <img
-                        src="img/portfolio/09-small.jpg"
+                        src={require('../img/portfolio/09-small.jpg')}
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}

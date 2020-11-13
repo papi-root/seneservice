@@ -20,7 +20,7 @@ export class Contact extends Component {
                       <div className="form-group">
                         <input
                           type="text"
-                          id="nom"
+                          id="name"
                           className="form-control"
                           placeholder="Nom"
                           required="required"

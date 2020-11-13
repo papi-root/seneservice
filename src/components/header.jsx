@@ -23,12 +23,13 @@ export class Header extends Component {
     var settings = {
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 1500,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      arrows:false
-
+      arrows:false,
+      pauseOnHover: false, 
+      pauseOnFocus: true, 
     };
     return (  
       <header id="header">

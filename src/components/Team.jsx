@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import FormatQuoteRoundedIcon from '@material-ui/icons/FormatQuote';
 export class Team extends Component {
   render() {
     return (
@@ -28,6 +28,15 @@ export class Team extends Component {
                 ))
               : "loading"}
           </div>
+        </div> 
+        <div className="container " data-aos="zoom-in">
+                <h3 className="text-center"> Les mots du Directeur </h3>
+          <p style={{ fontSize: '20px', }}> <i className="fa fa-quote-left" style={{ color: '#16a085', fontSize: '50px', right: 0}} />
+          &nbsp;&nbsp;&nbsp;&nbsp;
+              Nous avons bien conscience de l’ambition de nos programmes.
+              Nous avons la volonté de servir notre jeunesse, et donc l’avenir de notre pays.
+          </p>
+          
         </div>
       </div>
     );

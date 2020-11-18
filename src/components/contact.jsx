@@ -92,7 +92,8 @@ export class Contact extends Component {
                   <ul>
                     <li>
                       <a
-                        href={this.props.data ? this.props.data.facebook : "/"}
+                        href="https://web.facebook.com/SenServicesInternational2si/photos/?ref=page_internal"
+                        target="_blank"
                       >
                         <i className="fa fa-facebook"></i>
                       </a>
@@ -103,7 +104,8 @@ export class Contact extends Component {
                       </a>
                     </li>
                     <li>
-                      <a href={this.props.data ? this.props.data.youtube : "/"}>
+                      <a href="https://www.youtube.com/channel/UClNjD8cKQtyLeeD-mRYuZfg"
+                      target="_blank">
                         <i className="fa fa-youtube"></i>
                       </a>
                     </li>

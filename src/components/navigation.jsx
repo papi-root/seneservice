@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              2SI.SARL
+                <h2 style={{fontSize: '2.5em'}}>2<span style={{ fontSize: '0.5em'}}>SI.SARL</span></h2>
             </a>{" "}
           </div>
 

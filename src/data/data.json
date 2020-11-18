@@ -86,12 +86,12 @@
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
+            "img": "../img/team/01.jpg",
             "name": "Ndiole FAYE",
             "job": "Director"
         },
         {
-            "img": "img/team/02.jpg",
+            "img": "../img/team/02.jpg",
             "name": "Souleymane THIAW",
             "job": "Directeur Général"
         }, {
@@ -111,18 +111,20 @@
     "Features": [{
             "icon": "fa fa-desktop",
             "title": "EMC",
+            "link": "/emc", 
             "title1": "Équipement à Moindre Coût.", 
             "text": "Équipez-vous sans vous ruiner!"
         },
         {
             "icon": "fa fa-home",
             "title": "Immobilier",
+            "link": "/immobilier", 
             "title1": "Programme “Saaré Diaspora”.", 
             "text": "Votre Immobilier à moindre coût!"
         },
         {
             "icon": "fa fa-group",
-            "title": "Assurance",
+            "title": "Assurance Automobile",
             "title1": "Programme Assurance sur Mesure.", 
             "text": "Assurez-vous à moindre coût."
         },

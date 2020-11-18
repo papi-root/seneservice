@@ -13,24 +13,44 @@ export class Team extends Component {
             </p>
           </div>
           <div id="row">
-            {this.props.data
-              ? this.props.data.map((d, i) => (
-                  <div  key={`${d.name}-${i}`} className="col-md-4 col-sm-6 team" data-aos="zoom-in" data-aos-duration="500">
-                    <div className="thumbnail">
-                      {" "}
-                      <img src={d.img} alt="..." className="team-img" />
-                      <div className="caption">
-                        <h4>{d.name}</h4>
-                        <p>{d.job}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))
-              : "loading"}
+            
+            <div className="col-md-4 col-sm-6 team" data-aos="zoom-in" data-aos-duration="500">
+              <div className="thumbnail">
+                {" "}
+                <img src={require('../img/team/01.jpg')} alt="..." className="team-img" />
+                <div className="caption">
+                  <h4>Ndiole FAYE</h4>
+                  <p>Responsable Commercial, Chef Desk Immobilier</p>
+                </div>
+              </div>
+            </div>
+
+            <div  className="col-md-4 col-sm-6 team" data-aos="zoom-in" data-aos-duration="500">
+              <div className="thumbnail">
+                {" "}
+                <img src={require('../img/team/03.jpg')} alt="..." className="team-img" />
+                <div className="caption">
+                  <h4>Souleymane THIAW</h4>
+                  <p>Directeur Général</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4 col-sm-6 team" data-aos="zoom-in" data-aos-duration="500">
+              <div className="thumbnail">
+                {" "}
+                <img src={require('../img/team/02.jpg')} alt="..." className="team-img" />
+                <div className="caption">
+                  <h4>Mamadou CISS</h4>
+                  <p>Responsable Technique, Chef Desk EMC </p>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div> 
         <div className="container " data-aos="zoom-in">
-                <h3 className="text-center"> Les mots du Directeur </h3>
+                <h3 className="text-center"> Le mot du Directeur </h3>
           <p style={{ fontSize: '20px', }}> <i className="fa fa-quote-left" style={{ color: '#16a085', fontSize: '50px', right: 0}} />
           &nbsp;&nbsp;&nbsp;&nbsp;
               Nous avons bien conscience de l’ambition de nos programmes.

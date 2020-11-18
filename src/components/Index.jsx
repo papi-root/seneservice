@@ -1,16 +1,13 @@
 import React, { Component } from 'react'
-import Navigation from './components/navigation';
-import Header from './components/header';
-import Features from './components/features';
-import About from './components/about';
-//import Services from './components/services';
-import Gallery from './components/gallery';
-import Testimonials from './components/testimonials';
-import Team from './components/Team';
-import Contact from './components/contact';
-import JsonData from './data/data.json';
-import Chat2si from './components/chat2si'; 
-import './App.css'; 
+import Header from './header';
+import Features from './features';
+import About from './about';
+import Gallery from './gallery';
+import Testimonials from './testimonials';
+import Team from './Team';
+import Contact from './contact';
+import JsonData from '../data/data.json';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -32,8 +29,7 @@ export class App extends Component {
 
   render() {
     return (
-      <div style={{ width: '100%'}}>
-        <Navigation />
+      <div>
         <Header data={this.state.landingPageData.Header} />
         <About data={this.state.landingPageData.About} />
         <Features data={this.state.landingPageData.Features} />
@@ -41,7 +37,6 @@ export class App extends Component {
         <Testimonials data={this.state.landingPageData.Testimonials} />
         <Team data={this.state.landingPageData.Team} />
         <Contact data={this.state.landingPageData.Contact} />
-        <Chat2si /> 
       </div>
     )
   }

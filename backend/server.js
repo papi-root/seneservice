@@ -10,7 +10,8 @@ const httpMsgs = require('http-msgs');
 app.use(bodyParser.urlencoded({ extended: false }));
 
 var transporter = nodemailer.createTransport({
-  host: "outlook",
+  host: "smtp-mail.hotmail.com",
+  
   auth: {
     user: "papemorlo@hotmail.fr",
     pass: "#ecoss@ise!" 
@@ -42,7 +43,7 @@ app.post('/access', (req, res) => {
 
   transporter.sendMail(mail, (err, data) => {
     if (err) {
-      res.json({
+      res.status(200).json({
         status: 'fail'
       })
     } else {
@@ -57,6 +58,6 @@ app.post('/access', (req, res) => {
 
 app.get('/', (req, res) => res.send('API Running'));
 
-
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => console.info(`server has started on ${PORT}`))
